@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T10:48:30 IST" name="Suite" finished-at="2023-12-27T10:49:52 IST" duration-ms="82519">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T10:48:30 IST" name="Test" finished-at="2023-12-27T10:49:52 IST" duration-ms="82519">
+      <class name="tests.ClassThree">
+        <test-method signature="classtreetest()[pri:0, instance:tests.ClassThree@41dc0598]" started-at="2023-12-27T10:48:30 IST" name="classtreetest" finished-at="2023-12-27T10:49:23 IST" duration-ms="53591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classtreetest -->
+      </class> <!-- tests.ClassThree -->
+      <class name="tests.Logintest">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:33 IST" name="openApp" finished-at="2023-12-27T10:49:37 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:37 IST" name="login" data-provider="getlogindata" finished-at="2023-12-27T10:49:38 IST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reddyso3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:38 IST" name="teardown" finished-at="2023-12-27T10:49:38 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:38 IST" name="openApp" finished-at="2023-12-27T10:49:41 IST" duration-ms="2842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:41 IST" name="login" data-provider="getlogindata" finished-at="2023-12-27T10:49:52 IST" duration-ms="10835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reddyso@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Logintest@44b21f9f]" started-at="2023-12-27T10:49:52 IST" name="teardown" finished-at="2023-12-27T10:49:52 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Logintest -->
+      <class name="tests.ClassTwotest">
+        <test-method signature="testTwo()[pri:0, instance:tests.ClassTwotest@27fe9713]" started-at="2023-12-27T10:49:23 IST" name="testTwo" finished-at="2023-12-27T10:49:32 IST" duration-ms="8514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.ClassTwotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
